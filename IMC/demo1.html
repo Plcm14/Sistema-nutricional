@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC>
+<html >
+<head>
+    <meta http-equiv="content-type=" content="text/html; charset=ISO-8859-1" >
+    <title>IMC Calculadora JavaScript</title>
+    <script type="application/javascript" src="demo1.js"></script>
+
+    </head>
+    <body>
+        <form name="f1" id="f1" action="">
+            <fieldset>
+            <legend>CALCULADORA DE IMC</legend>
+            <p>Peso en kg:
+            <input type="number" name="peso" id="peso" min="0 "maxlength="4" size="3"  placeholder="ej. 178" /><br>
+      
+                </p>
+            <p>Altura en cm:
+            <input type="text"  name="altura"  id="altura" maxlength="5" size="5" placeholder="ej. 89" />
+            </p>
+            <p>IMC:
+                <input type="text"  name="imc"  id="imc" maxlength="15" size="10" placeholder="IMC"  value=""  onclick="calcularIMC()"/>
+                LEYENDA:
+                <input type="text"  name="leyenda"  id="leyenda" size="42" placeholder="LEYENDA" />
+            </p>
+        </fieldset>
+        </form>
+    </body>           
+</html>
